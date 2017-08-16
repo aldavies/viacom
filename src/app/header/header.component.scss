@@ -1,0 +1,11 @@
+.header {
+    display: table;
+    width: 100%;
+
+    #left {
+        display: table-cell;
+    }
+    #right {
+        display: table-cell;
+    }
+}

@@ -1,0 +1,6 @@
+<div class="container">
+  <button *ngFor="let number of numbers; let i = index;"class="btn button1" (click)="emitNumber(i + 1)">{{ number }}</button>
+</div>
+
+
+
